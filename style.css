@@ -1,0 +1,18 @@
+.main{
+	width:40%;
+	height:150px;
+	background: #9479fa;
+	margin: 0 auto;	
+	padding:20px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	border-radius:10px;
+}
+a{
+	text-decoration:none;
+	float:left;
+	padding:10px;
+	margin:0 auto;
+	text-color:black;
+	font-size:17px;
+	text-position:centr;
+}
