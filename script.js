@@ -35,6 +35,8 @@ function	guessOnTwoPlayers(){
 			}
 		}
 }
+
+
 function guess(){
 		var count =0;
 	function askQuestion(question,answer) {//parameters
@@ -48,6 +50,8 @@ function guess(){
 	askQuestion("5+6","11");
 		alert("Правильных ответов "+count);
 }
+
+
 function deposit(){
 	var money=+prompt("Количество денег");
 		var procent=+prompt("годовой процент");
@@ -62,19 +66,6 @@ function deposit(){
 					alert("Сумма с процентами за "+i+"год составит "+money.toFixed(2));
 			}
 }
-
-//jQuery
-
-// перменные, функции, команды, условия 
-jQuery('document').ready(function(){
-//загрузка скрипта 
-jQuery("body").append('<p>Вставил через append</p>'); 
-var p;
-p = jQuery("p").clone();
-jQuery("body").append(p+ "вставлен клонированием элементов");
-//клонирование элементов 
-//переменные
-});
 
 // цепочный метод 
 // очередь выполенения, где скрипт подключен там он и исполняется. 
